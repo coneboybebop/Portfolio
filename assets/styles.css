@@ -1,0 +1,181 @@
+:root{
+
+    --primarycolor:#4f7942;
+    --secondarycolor:#263238;
+    --tertiarycolor:#2f4827;
+}
+
+* {
+    
+    box-sizing:border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+header {
+
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background:var(--primarycolor);
+    background-size:cover;
+    padding:20px 35px;
+    background-attachment: fixed;
+    top:0%;
+    width: 100%;
+    color:var(--secondarycolor);
+    
+
+}
+
+header h1 a {
+
+    font-weight: bold;
+    font-size:48px;
+    text-shadow: 0 0 10px rgba(47, 72, 39, 1);
+    text-decoration:none;
+   
+
+}
+
+header ul li a {
+
+    font-size: 24px;
+    text-decoration: none;
+
+}
+
+h2 {
+
+    font-size: 32px;
+    border-bottom: 5px solid var(--tertiarycolor);
+    padding-bottom: 10px;
+    text-shadow: 0 0 10px rgba(47, 72, 39, 0.2);
+    color:var(--tertiarycolor);
+
+}
+
+
+/*about me styles start*/
+
+
+.aboutme {
+
+    display: flex;
+    flex-shrink: initial;
+    margin: 20px;
+    justify-content: space-between;
+   
+
+}
+
+.aboutme img {
+
+    width: 500px;
+    height: 260px;
+    object-fit: cover;
+    object-position: 0% 13%;
+    
+   
+}
+
+.aboutme div{
+
+    text-align: center;
+    width: 60%;
+    padding: 1.3px;
+    border: var(--secondary-color);
+    
+}
+
+
+
+.aboutme p {
+
+    padding-top: 10px;
+}
+
+/*work section styles start*/
+
+.work {
+
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.work h2 .contact h2 {
+
+    text-align:center;
+}
+
+.work h3 {
+
+    color: var(--tertiarycolor);
+}
+
+#firstwork {
+
+    margin: 5px 10px 5px 10px;
+    text-align: center;
+    border-bottom: 5px solid var(--primarycolor);
+    padding-bottom: 4px;
+    
+
+}
+
+
+#firstimg {
+
+    max-width: 100%;
+    height: auto;
+
+
+   
+}
+
+.otherwork {
+
+    display: inline-flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+}
+
+.otherwork h3 {
+
+    border-right: 5px solid var(--primarycolor);
+    padding-right: 4px;
+}
+    
+    
+    
+
+
+
+   
+/*contact info styles start*/
+
+
+.contact {
+
+    background: var(--primarycolor);
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px;
+    color: var(--secondarycolor);
+    
+}
+
+
+.contact ul li {
+
+    font-size: 24px;
+    display: inline;
+    padding: 10px;
+}
+
+
